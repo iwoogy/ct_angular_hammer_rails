@@ -1,0 +1,35 @@
+---
+module:
+  name: "hmTouchEvents"
+uis:
+  - name: hm-hold
+  - name: hm-tap
+  - name: hm-doubletap
+  - name: hm-drag
+  - name: hm-dragstart
+  - name: hm-dragend
+  - name: hm-dragup
+  - name: hm-dragdown
+  - name: hm-dragleft
+  - name: hm-dragright
+  - name: hm-swipe
+  - name: hm-swipeup
+  - name: hm-swipedown
+  - name: hm-swipeleft
+  - name: hm-swiperight
+  - name: hm-transform
+  - name: hm-transformstart
+  - name: hm-transformend
+  - name: hm-rotate
+  - name: hm-pinch
+  - name: hm-pinchin
+  - name: hm-pinchout
+  - name: hm-touch  
+dependencies:
+  packages:        
+    - name: hammer/hammer
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
